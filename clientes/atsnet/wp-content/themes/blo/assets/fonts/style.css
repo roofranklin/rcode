@@ -1,0 +1,205 @@
+@font-face {
+  font-family: 'blo-fonts';
+  src:  url('fonts/blo-fonts.eot?mn2f6v');
+  src:  url('fonts/blo-fonts.eot?mn2f6v#iefix') format('embedded-opentype'),
+    url('fonts/blo-fonts.ttf?mn2f6v') format('truetype'),
+    url('fonts/blo-fonts.woff?mn2f6v') format('woff'),
+    url('fonts/blo-fonts.svg?mn2f6v#blo-fonts') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="xsicon-"], [class*=" xsicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'blo-fonts' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.xsicon-soundcloud:before {
+  content: "\e930";
+}
+.xsicon-arrow-alt-circle-right:before {
+  content: "\e900";
+}
+.xsicon-arrow-down:before {
+  content: "\e901";
+}
+.xsicon-arrow-left:before {
+  content: "\e902";
+}
+.xsicon-arrow-right:before {
+  content: "\e903";
+}
+.xsicon-arrow-up:before {
+  content: "\e904";
+}
+.xsicon-calendar:before {
+  content: "\e905";
+}
+.xsicon-chart:before {
+  content: "\e906";
+}
+.xsicon-check:before {
+  content: "\e907";
+}
+.xsicon-chevron-down:before {
+  content: "\e908";
+}
+.xsicon-chevron-left:before {
+  content: "\e909";
+}
+.xsicon-chevron-right:before {
+  content: "\e90a";
+}
+.xsicon-chevron-up:before {
+  content: "\e90b";
+}
+.xsicon-clock:before {
+  content: "\e90c";
+}
+.xsicon-comment:before {
+  content: "\e90d";
+}
+.xsicon-comment-solid:before {
+  content: "\e90e";
+}
+.xsicon-dribbble:before {
+  content: "\e90f";
+}
+.xsicon-envelope:before {
+  content: "\e910";
+}
+.xsicon-envelope-solid:before {
+  content: "\e911";
+}
+.xsicon-eye:before {
+  content: "\e912";
+}
+.xsicon-facebook-f:before {
+  content: "\e913";
+}
+.xsicon-folder-open:before {
+  content: "\e914";
+}
+.xsicon-folder-solid:before {
+  content: "\e915";
+}
+.xsicon-google-plus-g:before {
+  content: "\e916";
+}
+.xsicon-instagram:before {
+  content: "\e917";
+}
+.xsicon-long-arrow-alt-down:before {
+  content: "\e918";
+}
+.xsicon-long-arrow-alt-left:before {
+  content: "\e919";
+}
+.xsicon-long-arrow-alt-right:before {
+  content: "\e91a";
+}
+.xsicon-long-arrow-alt-up:before {
+  content: "\e91b";
+}
+.xsicon-map-marker-alt:before {
+  content: "\e91c";
+}
+.xsicon-minus:before {
+  content: "\e91d";
+}
+.xsicon-monitor:before {
+  content: "\e91e";
+}
+.xsicon-paper-plane:before {
+  content: "\e91f";
+}
+.xsicon-phone-alt:before {
+  content: "\e920";
+}
+.xsicon-play:before {
+  content: "\e921";
+}
+.xsicon-plus:before {
+  content: "\e922";
+}
+.xsicon-profile:before {
+  content: "\e923";
+}
+.xsicon-quote:before {
+  content: "\e924";
+}
+.xsicon-reply-all:before {
+  content: "\e925";
+}
+.xsicon-search:before {
+  content: "\e926";
+  color: #565872;
+}
+.xsicon-tax:before {
+  content: "\e927";
+}
+.xsicon-th:before {
+  content: "\e928";
+}
+.xsicon-times:before {
+  content: "\e929";
+}
+.xsicon-trust:before {
+  content: "\e92a";
+}
+.xsicon-tv:before {
+  content: "\e92b";
+}
+.xsicon-twitter:before {
+  content: "\e92c";
+}
+.xsicon-user:before {
+  content: "\e92d";
+}
+.xsicon-vimeo:before {
+  content: "\e92e";
+}
+.xsicon-youtube:before {
+  content: "\e92f";
+}
+.xsicon-github:before {
+  content: "\f09b";
+}
+.xsicon-pinterest:before {
+  content: "\f0d2";
+}
+.xsicon-linkedin:before {
+  content: "\f0e1";
+}
+.xsicon-xing:before {
+  content: "\f168";
+}
+.xsicon-tumblr:before {
+  content: "\f173";
+}
+.xsicon-skype:before {
+  content: "\f17e";
+}
+.xsicon-vk:before {
+  content: "\f189";
+}
+.xsicon-stumbleupon:before {
+  content: "\f1a4";
+}
+.xsicon-behance:before {
+  content: "\f1b4";
+}
+.xsicon-vine:before {
+  content: "\f1ca";
+}

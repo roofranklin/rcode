@@ -1,0 +1,7 @@
+    <ul class="dropdown-menu noclose {{ css_classes }}">
+        {% for currency in currencies %}
+            <li {% if( currency == selected_currency) %} class="wcml-cs-active-currency" {% endif %} >
+                <a rel="{{ currency }}">{{ currency }}</a>
+            </li>
+        {% endfor %}
+    </ul>

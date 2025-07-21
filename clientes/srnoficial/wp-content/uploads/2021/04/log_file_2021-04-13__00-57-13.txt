@@ -1,0 +1,109 @@
+
+---Downloaded files---
+The import files for: Demo Import were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://rcode.com.br/clientes/srnoficial
+Data file = /home/rcode.com.br/public/clientes/srnoficial/wp-content/uploads/2021/04/demo-content-import-file_2021-04-13__00-57-13.xml
+Widget file = /home/rcode.com.br/public/clientes/srnoficial/wp-content/uploads/2021/04/demo-widgets-import-file_2021-04-13__00-57-13.json
+Customizer file = not defined!
+Redux files:
+yoome_theme_options -> /home/rcode.com.br/public/clientes/srnoficial/wp-content/uploads/2021/04/demo-redux-import-file_0-2021-04-13__00-57-13.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---pt-ocdi/before_widgets_import---
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Categorias - Categories - Imported
+Arquivos - Archives - Imported
+TS - Recent Comments - Recent Comments - Imported
+TS - Blogs - Recent Posts - Imported
+Nuvem de tags - Tags - Imported
+
+Blog Detail Sidebar : 
+
+Categorias - Categories - Imported
+Arquivos - Archives - Imported
+TS - Recent Comments - Recent Comments - Imported
+TS - Blogs - Recent Posts - Imported
+Nuvem de tags - Tags - Imported
+
+Product Category Sidebar : 
+
+Product Search - No Title - Imported
+TS - Product Categories - Categories - Imported
+Filter Products by Price - Price - Imported
+TS - Product Filter By Color - Color - Imported
+Filter Products by Attribute - Size - Imported
+TS - Product Filter By Brand - Brands - Imported
+Product Tag Cloud - Tags - Imported
+
+Top Filter Widget Area : 
+
+TS - Product Filter By Brand - Brand - Imported
+Filter Products by Price - Price - Imported
+Filter Products by Attribute - Color - Imported
+Filter Products by Attribute - Size - Imported
+
+Product Detail Sidebar : 
+
+Product Search - No Title - Imported
+TS - Product Categories - Categories - Imported
+TS - Products - Best selling - Imported
+Nuvem de tags - Tags - Imported
+
+Supermarket vertical menu : 
+
+TS - Menu - ALL CATEGORIES - Imported
+
+TS Mega Menu Widget Area 1 : 
+
+Menu - No Title - Imported
+Menu - No Title - Imported
+
+TS Mega Menu Widget Area 2 : 
+
+Menu - SHOP LAYOUTS - Imported
+Menu - PRODUCT TYLES - Imported
+Menu - PRODUCT LAYOUTS - Imported
+Menu - FEATURE SHOP - Imported
+
+TS Mega Menu Widget Area 3 : 
+
+Menu - SHOP LAYOUTS - Imported
+Menu - INFORMATION - Imported
+
+TS Mega Menu Widget Area 4 : 
+
+Menu - SHORTCODE BLOG - Imported
+Menu - SHORTCODE BLOG - Imported
+TS - Single Image - No Title - Imported
+
+TS Mega Menu Widget Area 5 : 
+
+Menu - HOMEPAGES - Imported
+Menu - HOMEPAGES - Imported
+
+TS Mega Menu Widget Area 6 : 
+
+Menu - No Title - Imported
+Menu - No Title - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: yoome_theme_options finished successfully!
+
+---pt-ocdi/after_import---
+

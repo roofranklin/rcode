@@ -1,0 +1,88 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: July 26, 2022 10:31 pm
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.4.6
+WORDPRESS:	6.0.1
+PHP INFO:	7.2.12 | SAPI: fpm-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: [30] not allowed 
+PHP MAX MEMORY: 4294967296 (128M default) 
+MEMORY STACK: 2MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported
+TABLES: total:65 | filtered:0 | create:65
+FILTERED: []
+SQL CREATED: Backup_Academic_Branding_260722_1848272272b874eb6229_20220726223104_database.sql
+SQL FILE SIZE: 6.44MB (6754907)
+SQL FILE TIME: 2022-07-26 22:31:21
+SQL RUNTIME: 2.34 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /home/rcode.com.br/public/clientes/academicbranding
+ARCHIVE FILE: Backup_Academic_Branding_260722_1848272272b874eb6229_20220726223104_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	258.18MB
+STATS:	Dirs 2,057 | Files 13,344
+SQL ADDED: Backup_Academic_Branding_260722_1848272272b874eb6229_20220726223104_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 15401
+    [filename] => /home/rcode.com.br/public/clientes/academicbranding/wp-content/backups-dup-lite/tmp/Backup_Academic_Branding_260722_1848272272b874eb6229_20220726223104_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 15400
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 146.08MB
+ARCHIVE RUNTIME: 19.54 sec.
+MEMORY STACK: 8.3MB
+building installer
+[PHP ERR][WARN] MSG:is_readable(): open_basedir restriction in effect. File(/dev/urandom) is not within the allowed path(s): (/home/rcode.com.br) [CODE:2|FILE:/home/rcode.com.br/public/clientes/academicbranding/wp-content/plugins/duplicator/classes/class.password.php|LINE:63]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->runZipBuild, DUP_Installer->build, DUP_Installer->create_enhanced_installer_files, DUP_Installer->create_archive_config_file, DUP_PasswordHash->HashPassword, DUP_PasswordHash->get_random_bytes, is_readable, DUP_Handler::error, DUP_Handler::getMessage
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip /home/rcode.com.br/public/clientes/academicbranding/wp-content/backups-dup-lite/tmp/Backup_Academic_Branding_260722_1848272272b874eb6229_20220726223104_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 6.44MB
+INSTALLER FILE: 64.61KB
+ARCHIVE FILE: 147.18MB 
+EXPECTED FILE/DIRECTORY COUNT: 15,401
+ACTUAL FILE/DIRECTORY COUNT: 15,400
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[3]
+TOTAL PROCESS RUNTIME: 23.07 sec.
+PEAK PHP MEMORY USED: 12.3MB
+DONE PROCESSING => Backup_Academic_Branding_260722 July 26, 2022 10:31 pm
+
