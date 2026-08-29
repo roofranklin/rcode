@@ -1,2 +1,0 @@
-# onlyenergy
-Site da Onlyenergy
