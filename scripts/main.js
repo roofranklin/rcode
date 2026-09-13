@@ -193,23 +193,43 @@
         });
       },
 
-      // about image
+      // about / team animation
       animAboutImage() {
         if (!this.$refs.aboutSection) {
           return;
         }
 
-        gsap.timeline({
-          scrollTrigger: {
-            trigger: ".about-section .about-img",
-            start: "top 80%",
-            end: "top 50%",
-            scrub: 0.3
-          }
-        }).from(".about-section .about-img", {
-          autoAlpha: 0,
-          scale: 0.5
-        });
+        const teamCards = gsap.utils.toArray(".about-section .team-member-card");
+        if (teamCards.length > 0) {
+          gsap.timeline({
+            scrollTrigger: {
+              trigger: ".about-section .team-grid",
+              start: "top 85%",
+              end: "top 45%",
+              scrub: 0.3
+            }
+          }).from(teamCards, {
+            autoAlpha: 0,
+            y: 40,
+            stagger: 0.2
+          });
+          return;
+        }
+
+        const aboutImg = document.querySelector(".about-section .about-img");
+        if (aboutImg) {
+          gsap.timeline({
+            scrollTrigger: {
+              trigger: aboutImg,
+              start: "top 80%",
+              end: "top 50%",
+              scrub: 0.3
+            }
+          }).from(aboutImg, {
+            autoAlpha: 0,
+            scale: 0.5
+          });
+        }
       },
 
       // skills items
