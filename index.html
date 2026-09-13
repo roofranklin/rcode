@@ -581,7 +581,7 @@
           <div class="section-content row">
 
             <!-- text box -->
-            <div class="contact-text col-lg-6">
+            <div class="contact-text col-lg-12">
               <div class="text-box-inline">
                 <span class="subtitle">Fala comigo</span>
                 <h2>
@@ -590,8 +590,9 @@
                   Vamos marcar um café :)
                 </h2>
                 <p>
-                  Entre em contato comigo e vamos bater um papo sobre como eu posso te ajudar. Seja com um site,
-                  aplicativo, sistema ou até mesmo uma mentoria de carreira eu estou à disposição.
+                  Entre em contato conosco e vamos bater um papo sobre como podemos te ajudar. Seja com um sistema,
+                  aplicativo, sistema ou até mesmo uma mentoria de como treinar o time da sua empresa em tecnologia eu
+                  estou à disposição.
                 </p>
               </div>
 
@@ -629,91 +630,18 @@
               <!-- social links -->
               <ul class="social">
                 <li>
-                  <a href="#" target="_blank" rel="noreferrer" v-tooltip="{text: 'Facebook', dir: 'top'}">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" rel="noreferrer" v-tooltip="{text: 'Twitter', dir: 'top'}">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" rel="noreferrer" v-tooltip="{text: 'LinkedIn', dir: 'top'}">
+                  <a href="https://www.linkedin.com/in/rooseveltfranklin/" target="_blank" rel="noreferrer"
+                    v-tooltip="{text: 'LinkedIn', dir: 'top'}">
                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank" rel="noreferrer" v-tooltip="{text: 'YouTube', dir: 'top'}">
+                  <a href="https://github.com/roofranklin" target="_blank" rel="noreferrer"
+                    v-tooltip="{text: 'GitHub', dir: 'top'}">
                     <i class="fa fa-github" aria-hidden="true"></i>
                   </a>
                 </li>
               </ul>
-            </div>
-
-            <!-- contact form -->
-            <div class="col-lg-6">
-              <form ref="contactForm" class="contact-form form-styled" action="contact_form.php"
-                data-success-msg="Message sent successfully!"
-                data-err-msg="Oops! something went wrong, please try again.">
-                <div class="group">
-                  <label>Nome</label>
-                  <div class="control has-prefix-icon">
-                    <input type="text" name="name" placeholder="Ex.: John Doe" minlength="3" required>
-                    <i class="fa fa-user-circle prefix-icon" aria-hidden="true"></i>
-
-                    <!-- validation errors messages -->
-                    <div class="errors-msgs">
-                      <input class="required" type="hidden" value="Nome é obrigatório">
-                      <input class="minLength" type="hidden" value="Nome tem que ter no mínimo 03 caracteres">
-                    </div>
-                  </div>
-                </div>
-                <div class="group">
-                  <label>Email</label>
-                  <div class="control has-prefix-icon">
-                    <input class="ltr-dir" type="email" inputmode="email" name="email"
-                      placeholder="Ex.: john.doe@gmail.com" required>
-                    <i class="fa fa-envelope prefix-icon" aria-hidden="true"></i>
-
-                    <!-- validation errors messages -->
-                    <div class="errors-msgs">
-                      <input class="required" type="hidden" value="Email é obrigatório">
-                      <input class="invalid" type="hidden" value="Digite um email válido">
-                    </div>
-                  </div>
-                </div>
-                <div class="group phone-number">
-                  <label>Telefone <span class="optional">(Opcional)</span></label>
-                  <div class="control has-prefix-icon">
-                    <input type="tel" inputmode="tel" name="phone" placeholder="(21) 5555-5555">
-                    <i class="fa fa-phone prefix-icon" aria-hidden="true"></i>
-
-                    <!-- validation errors messages -->
-                    <div class="errors-msgs">
-                      <input class="invalid" type="hidden" value="Please enter a valid Phone Number">
-                    </div>
-                  </div>
-                </div>
-                <div class="group">
-                  <label>Mensagem</label>
-                  <div class="control has-prefix-icon">
-                    <textarea name="message" placeholder="Digite a mensagem..." required></textarea>
-                    <i class="fa fa-comments prefix-icon" aria-hidden="true"></i>
-
-                    <!-- validation errors messages -->
-                    <div class="errors-msgs">
-                      <input class="required" type="hidden" value="Mensagem é obrigatório">
-                    </div>
-                  </div>
-                </div>
-                <div class="group">
-                  <div class="control">
-                    <button class="submit-btn btn btn-dark" type="button" @click="contactFormValidation">Manda
-                      vê</button>
-                  </div>
-                </div>
-              </form>
             </div>
           </div>
         </div>

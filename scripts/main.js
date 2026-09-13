@@ -1,4 +1,4 @@
-(function() {
+(function () {
   'use strict';
 
   /* ------------------------------------- */
@@ -577,7 +577,7 @@
           title: 'Next.js, Nuxt.js'
         }, {
           imgUrl: '/assets/images/icons/coding.png',
-          title: 'Node.js, Python'
+          title: 'Node.js, Nest, Python'
         }, {
           imgUrl: '/assets/images/icons/computer.png',
           title: 'N8N (Workflow Automation)'
@@ -604,1139 +604,540 @@
           title: 'Figma'
         }],
         // list of experience items to loop through it
-        experienceItems: [{
-          date: '2003',
-          companyName: {
-            en: 'O início',
-            ar: 'شركة جوجل'
+        experienceItems: [
+          {
+            date: '2003',
+            companyName: {
+              en: 'Os primeiros passos'
+            },
+            jobTitle: {
+              en: 'Design e soluções para pequenos negócios'
+            },
+            desc: {
+              en: 'A trajetória que deu origem à RCode começou com a atuação independente do seu fundador, criando sites, materiais gráficos e campanhas de e-mail marketing para pequenos negócios.'
+            }
           },
-          jobTitle: {
-            en: 'Webdesigner Freelancer',
-            ar: 'مطور الواجهة الأمامية'
+          {
+            date: '2007',
+            companyName: {
+              en: 'Especialização no universo digital'
+            },
+            jobTitle: {
+              en: 'Design e desenvolvimento web'
+            },
+            desc: {
+              en: 'O desenvolvimento web passou a ser o foco da nossa atuação. Ampliamos o portfólio e começamos a atender empresas de médio porte, combinando design e tecnologia para fortalecer sua presença digital.'
+            }
           },
-          desc: {
-            en: 'Comecei sozinho como freelancer criando sites, impressos e e-mails marketing para pequenos clientes.',
-            ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
+          {
+            date: '2010',
+            companyName: {
+              en: 'Novos mercados, maiores desafios'
+            },
+            jobTitle: {
+              en: 'Soluções web para grandes empresas'
+            },
+            desc: {
+              en: 'A mudança para a capital fluminense abriu caminho para projetos de maior porte. Nossa trajetória passou a incluir trabalhos para marcas como Petrobras, Shell, TIM e Shopping Rio Design, ampliando nossa experiência e capacidade de entrega.'
+            }
+          },
+          {
+            date: '2017',
+            companyName: {
+              en: 'Experiência além das fronteiras'
+            },
+            jobTitle: {
+              en: 'Tecnologia para mercados internacionais'
+            },
+            desc: {
+              en: 'Nossa experiência internacional incluiu seis anos de atuação em uma multinacional, com o desenvolvimento de um sistema de solicitação de vistos americanos para Brasil, Angola e México. Também participamos de projetos para empresas da Argentina e dos Estados Unidos, como TechnoSupply e Kohler.'
+            }
+          },
+          {
+            date: '2020',
+            companyName: {
+              en: 'Consolidação em grandes projetos'
+            },
+            jobTitle: {
+              en: 'Experiências digitais para marcas de referência'
+            },
+            desc: {
+              en: 'Com uma atuação mais madura, participamos de projetos como o site do Janeiro Hotel e a revitalização do site do Via Parque Shopping. Essas entregas ampliaram nosso portfólio de soluções que conectam identidade de marca, experiência do usuário e desenvolvimento web.'
+            }
+          },
+          {
+            date: '2022',
+            companyName: {
+              en: 'Atuação na transformação digital'
+            },
+            jobTitle: {
+              en: 'Evolução de produtos e times de tecnologia'
+            },
+            desc: {
+              en: 'Ampliamos nossa contribuição para além do desenvolvimento, participando de iniciativas de transformação digital na HeroSpark, no Bradesco Seguros e na ChatGuru. Passamos a conectar decisões técnicas, evolução de produtos e liderança de equipes aos objetivos de cada negócio.'
+            }
+          },
+          {
+            date: '2023',
+            companyName: {
+              en: 'Conhecimento que forma profissionais'
+            },
+            jobTitle: {
+              en: 'Educação e capacitação em tecnologia'
+            },
+            desc: {
+              en: 'A formação de profissionais passou a integrar nossa trajetória com a atuação do fundador como professor e subcoordenador de JavaScript na Ada Tech. Essa experiência inclui programas de formação ligados a empresas como iFood, Santander, Caixa, Cognizant e Uber.'
+            }
+          },
+          {
+            date: '2024',
+            companyName: {
+              en: 'Expansão da atuação consultiva'
+            },
+            jobTitle: {
+              en: 'Tecnologia, liderança e desenvolvimento de talentos'
+            },
+            desc: {
+              en: 'Com uma rede de parceiros especializados, ampliamos nossa atuação para consultoria em gestão de equipes, desenvolvimento de carreiras e perícias em tecnologia. A RCode passou a apoiar empresas tanto nos desafios técnicos quanto na identificação de talentos e no desenvolvimento de seus times.'
+            }
+          },
+          {
+            date: '2026',
+            companyName: {
+              en: 'RCode'
+            },
+            jobTitle: {
+              en: 'Consultoria em Transformação Digital, liderança e desenvolvimento de talentos'
+            },
+            desc: {
+              en: '23 anos de mercado, transformando ideias em tecnologia, pessoas em talentos e negócios em experiências digitais.'
+            }
           }
-        }, {
-          date: '2007',
-          companyName: {
-            en: 'Foco em desenvolvimento de websites',
-            ar: 'شركة فيسبوك'
-          },
-          jobTitle: {
-            en: 'Webdesigner / Webdeveloper',
-            ar: 'مطوّر الويب المتكامل'
-          },
-          desc: {
-            en: 'A partir daqui eu comecei a focar somente na parte web e desenvolvi alguns trabalhos para empresas de médio porte.',
-            ar: 'تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.'
-          }
-        }, {
-          date: '2010',
-          companyName: {
-            en: 'Mudança para capital',
-            ar: 'شركة انفاتو'
-          },
-          jobTitle: {
-            en: 'Fullstack Developer',
-            ar: 'مطور UI/UX'
-          },
-          desc: {
-            en: 'Mudei para a capital para atender empresas de grande porte. A partir daqui desenvolvemos trabalhos para Petrobrás, Shell, Tim, Shopping Rio Design, e outras empresas.',
-            ar: 'تم تحويل تخطيطات Photoshop إلى صفحات ويب باستخدام HTML و CSS و JavaScript.'
-          }
-        }, {
-          date: '2014',
-          companyName: {
-            en: '10 anos e expansão do time',
-            ar: 'شركة جوجل'
-          },
-          jobTitle: {
-            en: 'Juntos somos mais fortes',
-            ar: 'مطور الواجهة الأمامية'
-          },
-          desc: {
-            en: 'Comecei a fazer minhas primeiras parcerias para projetos e comecei a focar minhas energias nas minhas especialidades.',
-            ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
-          }
-        }, {
-          date: '2017',
-          companyName: {
-            en: 'Projetos globais',
-            ar: 'شركة فيسبوك'
-          },
-          jobTitle: {
-            en: 'Um mundo a explorar',
-            ar: 'مطوّر الويب المتكامل'
-          },
-          desc: {
-            en: 'Atuamos durante 6 anos em uma empresa multinacional onde desenvolvi o sistema de visto americano para o mercado brasileiro, angolano e mexicano. Além disso atuamos em projetos para empresas Argentinas e Americanas tais como TechnoSupply e Kohler.',
-            ar: 'تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.'
-          }
-        }, {
-          date: '2020',
-          companyName: {
-            en: 'Grandes clientes',
-            ar: 'شركة جوجل'
-          },
-          jobTitle: {
-            en: 'A maturidade me trouxe projetos cada vez maiores',
-            ar: 'مطور الواجهة الأمامية'
-          },
-          desc: {
-            en: 'Atuamos em projetos lindíssimos como o site do Janeiro Hotel e na revitalização do site do Via Parque Shopping.',
-            ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
-          }
-        }, {
-          date: '2022',
-          companyName: {
-            en: 'Do velho ao novo',
-            ar: 'شركة فيسبوك'
-          },
-          jobTitle: {
-            en: 'Projetos de transformação digital',
-            ar: 'مطوّر الويب المتكامل'
-          },
-          desc: {
-            en: 'Começamos a receber convites para participar de processos de transformação digital de algumas empresas. Pegamos esses desafios na Herospark, Bradesco Seguros e ChatGuru.',
-            ar: 'تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.'
-          }
-        }, {
-          date: '2023',
-          companyName: {
-            en: 'Inicio na jornada de treinamentos',
-            ar: 'شركة فيسبوك'
-          },
-          jobTitle: {
-            en: 'Professor e Subcoordenador de Treinamentos',
-            ar: 'مطوّر الويب المتكامل'
-          },
-          desc: {
-            en: 'Comecei a atuar em uma grande paixão que é ensinar. Estou atuando como professor e subcoordenador de javascript na empresa AdaTech, onde ajudo a formar novos profissionais de tecnologia. Participo de programas sociais para iFood, Santander, Caixa, Cognizant, Uber, etc...',
-            ar: 'تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.'
-          }
-        },
-        {
-          date: '2024',
-          companyName: {
-            en: 'Atuação em Perícias, Construção de Carreiras e Consultoria em gestão de equipes.',
-            ar: 'شركة فيسبوك'
-          },
-          jobTitle: {
-            en: 'Head de Times de Tecnologia',
-            ar: 'مطوّر الويب المتكامل'
-          },
-          desc: {
-            en: 'Com uma equipe de parceiros fortes em diversas áreas , atuamos em perícias de tecnologia, construção de carreiras e consultoria em gestão de equipes. Estamos ajudando empresas a encontrar os melhores profissionais de tecnologia e a desenvolver suas equipes.',
-            ar: 'تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.'
-          }
-        },{}],
+        ],
         // current page of portfolio items
         portfolioItemsPage: 1,
         // portfolio items per page
-        itemsPerPage: 7,
+        itemsPerPage: 8,
         // portfolio items filter by type
-        filters: ['All', 'HTML', 'Vue', 'React', 'Wordpress'],
-        currentFilter: 'All',
+        filters: ['Todos', 'Sites', 'Sistemas', 'Apps'],
+        currentFilter: 'Todos',
         // portfolio archive name
         portfolioArchiveName: '',
         // list of portfolio items to loop through it
         allPortfolioItems: [{
-          id: 1,
-          url: 'single-portfolio.html?id=1',
-          imgUrl: '/assets/images/portfolio/uva-capa.png',
+          id: 7,
+          url: 'single-portfolio.html?id=7',
+          imgUrl: '/assets/images/portfolio/sparkpay-capa.png',
           title: {
-            en: 'Portal UVA',
-            ar: 'هنا عنوان المشروع 1'
+            en: 'Plataforma de pagamento Herospark'
           },
           date: {
-            en: 'Novembro 2021',
-            ar: 'أبريل 2021'
+            en: 'Abril 2021'
           },
           desc: {
-            en: 'Portal desenvolvido como freelancer para a agência People Interactive. Esse site foi desenvolvido em Wordpress com o design feito pela agência e eu atuei recebendo o layout e devolvendo o site em wordpress totalmente funcional e customizável para o cliente. Nesse site foram aplicados plugins de Custom Fields, Twitter e foram feitos plugins customizados para o cliente.',
-            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
           },
-          category: 'HTML',
-          tools: ['HTML', 'Wordpress', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'PHP'],
+          category: 'Sistemas',
+          tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'TailwindCSS', 'AJAX', 'Angular', 'Firebase'],
           screenshots: {
             img1: {
               url: 'https://via.placeholder.com/355x200',
               caption: {
-                en: 'caption 5',
-                ar: 'تسمية توضيحية 5'
+                en: 'caption 5'
               }
             },
             img2: {
               url: 'https://via.placeholder.com/330x460',
               caption: {
-                en: 'caption 4',
-                ar: 'تسمية توضيحية 4'
+                en: 'caption 4'
               }
             },
             img3: {
               url: 'https://via.placeholder.com/300x225',
               caption: {
-                en: 'caption 3',
-                ar: 'تسمية توضيحية 3'
+                en: 'caption 3'
               }
             },
             img4: {
               url: 'https://via.placeholder.com/300x225',
               caption: {
-                en: 'caption 2',
-                ar: 'تسمية توضيحية 2'
+                en: 'caption 2'
               }
             },
             img5: {
               url: 'https://via.placeholder.com/300x225',
               caption: {
-                en: 'caption 1',
-                ar: 'تسمية توضيحية 1'
+                en: 'caption 1'
               }
             }
           }
-        }, {
-          id: 2,
-          url: 'single-portfolio.html?id=2',
-          imgUrl: 'https://via.placeholder.com/530x300',
-          title: {
-            en: 'Lorem Ipsum Dolor 2',
-            ar: 'هنا عنوان المشروع 2'
-          },
-          date: {
-            en: 'April 2021',
-            ar: 'أبريل 2021'
-          },
-          desc: {
-            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-          },
-          category: 'Angular',
-          tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'TailwindCSS', 'AJAX', 'Angular', 'NodeJs', 'MongoDB'],
-          screenshots: {
-            img1: {
-              url: 'https://via.placeholder.com/355x200',
-              caption: {
-                en: 'caption 5',
-                ar: 'تسمية توضيحية 5'
-              }
-            },
-            img2: {
-              url: 'https://via.placeholder.com/330x460',
-              caption: {
-                en: 'caption 4',
-                ar: 'تسمية توضيحية 4'
-              }
-            },
-            img3: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 3',
-                ar: 'تسمية توضيحية 3'
-              }
-            },
-            img4: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 2',
-                ar: 'تسمية توضيحية 2'
-              }
-            },
-            img5: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 1',
-                ar: 'تسمية توضيحية 1'
-              }
-            }
-          }
-        }, {
-          id: 3,
-          url: 'single-portfolio.html?id=3',
-          imgUrl: 'https://via.placeholder.com/390x390',
-          title: {
-            en: 'Lorem Ipsum Dolor 3',
-            ar: 'هنا عنوان المشروع 3'
-          },
-          date: {
-            en: 'April 2021',
-            ar: 'أبريل 2021'
-          },
-          desc: {
-            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-          },
-          category: 'Vue',
-          tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Materialize', 'AJAX', 'Vue', 'Firebase'],
-          screenshots: {
-            img1: {
-              url: 'https://via.placeholder.com/355x200',
-              caption: {
-                en: 'caption 5',
-                ar: 'تسمية توضيحية 5'
-              }
-            },
-            img2: {
-              url: 'https://via.placeholder.com/330x460',
-              caption: {
-                en: 'caption 4',
-                ar: 'تسمية توضيحية 4'
-              }
-            },
-            img3: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 3',
-                ar: 'تسمية توضيحية 3'
-              }
-            },
-            img4: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 2',
-                ar: 'تسمية توضيحية 2'
-              }
-            },
-            img5: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 1',
-                ar: 'تسمية توضيحية 1'
-              }
-            }
-          }
-        }, {
+        },
+        {
           id: 4,
           url: 'single-portfolio.html?id=4',
-          imgUrl: 'https://via.placeholder.com/340x510',
+          imgUrl: '/assets/images/portfolio/analu-capa.png',
+          goToProject: 'http://analuhome.com.br/',
           title: {
-            en: 'Lorem Ipsum Dolor 4',
-            ar: 'هنا عنوان المشروع 4'
+            en: 'Analu Imóveis e Homestaging'
           },
           date: {
-            en: 'April 2021',
-            ar: 'أبريل 2021'
+            en: 'Outubro 2022'
           },
           desc: {
-            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+            en: 'Website e sistema de gestão e avaliação de mercado de imóveis para a consultora de imóveis e stager Ana Lucia. Foi feito um site usando a plataforma wordpresse e uma plataforma de avaliação de imóveis feira em React com GraphQL e Amplify dentro de um ambiente AWS totalmente escalável.'
           },
-          category: 'HTML',
-          tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'TailwindCSS', 'AJAX', 'Angular', 'NodeJs', 'MongoDB'],
+          category: 'Sites',
+          tools: ['HTML', 'CSS', 'Sass', 'JavaScript', 'Wordpress', 'React', 'Php', 'Amplify'],
           screenshots: {
             img1: {
               url: 'https://via.placeholder.com/355x200',
               caption: {
-                en: 'caption 5',
-                ar: 'تسمية توضيحية 5'
+                en: 'caption 5'
               }
             },
             img2: {
               url: 'https://via.placeholder.com/330x460',
               caption: {
-                en: 'caption 4',
-                ar: 'تسمية توضيحية 4'
+                en: 'caption 4'
               }
             },
             img3: {
               url: 'https://via.placeholder.com/300x225',
               caption: {
-                en: 'caption 3',
-                ar: 'تسمية توضيحية 3'
+                en: 'caption 3'
               }
             },
             img4: {
               url: 'https://via.placeholder.com/300x225',
               caption: {
-                en: 'caption 2',
-                ar: 'تسمية توضيحية 2'
+                en: 'caption 2'
               }
             },
             img5: {
               url: 'https://via.placeholder.com/300x225',
               caption: {
-                en: 'caption 1',
-                ar: 'تسمية توضيحية 1'
+                en: 'caption 1'
               }
             }
           }
         }, {
           id: 5,
           url: 'single-portfolio.html?id=5',
-          imgUrl: 'https://via.placeholder.com/380x215',
-          title: {
-            en: 'Lorem Ipsum Dolor 5',
-            ar: 'هنا عنوان المشروع 5'
-          },
-          date: {
-            en: 'April 2021',
-            ar: 'أبريل 2021'
-          },
-          desc: {
-            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-          },
-          category: 'Angular',
-          tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Bootstrap', 'AJAX', 'Vue', 'Firebase'],
-          screenshots: {
-            img1: {
-              url: 'https://via.placeholder.com/355x200',
-              caption: {
-                en: 'caption 5',
-                ar: 'تسمية توضيحية 5'
-              }
-            },
-            img2: {
-              url: 'https://via.placeholder.com/330x460',
-              caption: {
-                en: 'caption 4',
-                ar: 'تسمية توضيحية 4'
-              }
-            },
-            img3: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 3',
-                ar: 'تسمية توضيحية 3'
-              }
-            },
-            img4: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 2',
-                ar: 'تسمية توضيحية 2'
-              }
-            },
-            img5: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 1',
-                ar: 'تسمية توضيحية 1'
-              }
-            }
-          }
-        }, {
-          id: 6,
-          url: 'single-portfolio.html?id=6',
-          imgUrl: 'https://via.placeholder.com/400x300',
-          title: {
-            en: 'Lorem Ipsum Dolor 6',
-            ar: 'هنا عنوان المشروع 6'
-          },
-          date: {
-            en: 'April 2021',
-            ar: 'أبريل 2021'
-          },
-          desc: {
-            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-          },
-          category: 'Vue',
-          tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Materialize', 'AJAX', 'Angular', 'NodeJs', 'MongoDB'],
-          screenshots: {
-            img1: {
-              url: 'https://via.placeholder.com/355x200',
-              caption: {
-                en: 'caption 5',
-                ar: 'تسمية توضيحية 5'
-              }
-            },
-            img2: {
-              url: 'https://via.placeholder.com/330x460',
-              caption: {
-                en: 'caption 4',
-                ar: 'تسمية توضيحية 4'
-              }
-            },
-            img3: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 3',
-                ar: 'تسمية توضيحية 3'
-              }
-            },
-            img4: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 2',
-                ar: 'تسمية توضيحية 2'
-              }
-            },
-            img5: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 1',
-                ar: 'تسمية توضيحية 1'
-              }
-            }
-          }
-        }, {
-          id: 7,
-          url: 'single-portfolio.html?id=7',
-          imgUrl: 'https://via.placeholder.com/380x215',
-          title: {
-            en: 'Lorem Ipsum Dolor 7',
-            ar: 'هنا عنوان المشروع 7'
-          },
-          date: {
-            en: 'April 2021',
-            ar: 'أبريل 2021'
-          },
-          desc: {
-            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-          },
-          category: 'HTML',
-          tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Bootstrap', 'AJAX', 'Vue', 'Firebase'],
-          screenshots: {
-            img1: {
-              url: 'https://via.placeholder.com/355x200',
-              caption: {
-                en: 'caption 5',
-                ar: 'تسمية توضيحية 5'
-              }
-            },
-            img2: {
-              url: 'https://via.placeholder.com/330x460',
-              caption: {
-                en: 'caption 4',
-                ar: 'تسمية توضيحية 4'
-              }
-            },
-            img3: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 3',
-                ar: 'تسمية توضيحية 3'
-              }
-            },
-            img4: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 2',
-                ar: 'تسمية توضيحية 2'
-              }
-            },
-            img5: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 1',
-                ar: 'تسمية توضيحية 1'
-              }
-            }
-          }
-        }, {
-          id: 8,
-          url: 'single-portfolio.html?id=8',
-          imgUrl: 'https://via.placeholder.com/340x340',
-          title: {
-            en: 'Lorem Ipsum Dolor 8',
-            ar: 'هنا عنوان المشروع 8'
-          },
-          date: {
-            en: 'April 2021',
-            ar: 'أبريل 2021'
-          },
-          desc: {
-            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-          },
-          category: 'Vue',
-          tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'TailwindCSS', 'AJAX', 'Angular', 'NodeJs', 'MongoDB'],
-          screenshots: {
-            img1: {
-              url: 'https://via.placeholder.com/355x200',
-              caption: {
-                en: 'caption 5',
-                ar: 'تسمية توضيحية 5'
-              }
-            },
-            img2: {
-              url: 'https://via.placeholder.com/330x460',
-              caption: {
-                en: 'caption 4',
-                ar: 'تسمية توضيحية 4'
-              }
-            },
-            img3: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 3',
-                ar: 'تسمية توضيحية 3'
-              }
-            },
-            img4: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 2',
-                ar: 'تسمية توضيحية 2'
-              }
-            },
-            img5: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 1',
-                ar: 'تسمية توضيحية 1'
-              }
-            }
-          }
-        }, {
-          id: 9,
-          url: 'single-portfolio.html?id=9',
-          imgUrl: 'https://via.placeholder.com/300x375',
-          title: {
-            en: 'Lorem Ipsum Dolor 9',
-            ar: 'هنا عنوان المشروع 9'
-          },
-          date: {
-            en: 'April 2021',
-            ar: 'أبريل 2021'
-          },
-          desc: {
-            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-          },
-          category: 'Angular',
-          tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Materialize', 'AJAX', 'Vue', 'Firebase'],
-          screenshots: {
-            img1: {
-              url: 'https://via.placeholder.com/355x200',
-              caption: {
-                en: 'caption 5',
-                ar: 'تسمية توضيحية 5'
-              }
-            },
-            img2: {
-              url: 'https://via.placeholder.com/330x460',
-              caption: {
-                en: 'caption 4',
-                ar: 'تسمية توضيحية 4'
-              }
-            },
-            img3: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 3',
-                ar: 'تسمية توضيحية 3'
-              }
-            },
-            img4: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 2',
-                ar: 'تسمية توضيحية 2'
-              }
-            },
-            img5: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 1',
-                ar: 'تسمية توضيحية 1'
-              }
-            }
-          }
-        }, {
-          id: 10,
-          url: 'single-portfolio.html?id=10',
-          imgUrl: 'https://via.placeholder.com/350x200',
-          title: {
-            en: 'Lorem Ipsum Dolor 10',
-            ar: 'هنا عنوان المشروع 10'
-          },
-          date: {
-            en: 'April 2021',
-            ar: 'أبريل 2021'
-          },
-          desc: {
-            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-          },
-          category: 'HTML',
-          tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Bootstrap', 'AJAX', 'Angular', 'NodeJs', 'MongoDB'],
-          screenshots: {
-            img1: {
-              url: 'https://via.placeholder.com/355x200',
-              caption: {
-                en: 'caption 5',
-                ar: 'تسمية توضيحية 5'
-              }
-            },
-            img2: {
-              url: 'https://via.placeholder.com/330x460',
-              caption: {
-                en: 'caption 4',
-                ar: 'تسمية توضيحية 4'
-              }
-            },
-            img3: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 3',
-                ar: 'تسمية توضيحية 3'
-              }
-            },
-            img4: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 2',
-                ar: 'تسمية توضيحية 2'
-              }
-            },
-            img5: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 1',
-                ar: 'تسمية توضيحية 1'
-              }
-            }
-          }
-        }, {
-          id: 11,
-          url: 'single-portfolio.html?id=11',
-          imgUrl: 'https://via.placeholder.com/400x300',
-          title: {
-            en: 'Lorem Ipsum Dolor 11',
-            ar: 'هنا عنوان المشروع 11'
-          },
-          date: {
-            en: 'April 2021',
-            ar: 'أبريل 2021'
-          },
-          desc: {
-            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-          },
-          category: 'Vue',
-          tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'TailwindCSS', 'AJAX', 'Angular', 'Firebase'],
-          screenshots: {
-            img1: {
-              url: 'https://via.placeholder.com/355x200',
-              caption: {
-                en: 'caption 5',
-                ar: 'تسمية توضيحية 5'
-              }
-            },
-            img2: {
-              url: 'https://via.placeholder.com/330x460',
-              caption: {
-                en: 'caption 4',
-                ar: 'تسمية توضيحية 4'
-              }
-            },
-            img3: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 3',
-                ar: 'تسمية توضيحية 3'
-              }
-            },
-            img4: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 2',
-                ar: 'تسمية توضيحية 2'
-              }
-            },
-            img5: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 1',
-                ar: 'تسمية توضيحية 1'
-              }
-            }
-          }
-        }, {
-          id: 12,
-          url: 'single-portfolio.html?id=12',
-          imgUrl: '/assets/images/portfolio/energisa-capa.png',
-          goToProject: 'https://servicos.energisa.com.br/segunda-via',
-          title: {
-            en: 'Energisa Área do Cliente',
-            ar: 'هنا عنوان المشروع 12'
-          },
-          date: {
-            en: 'Dezembro 2021',
-            ar: 'أبريل 2021'
-          },
-          desc: {
-            en: 'Portal desenvolvido como freelancer para a agência People Interactive. esse portal foi desenvolvido em Next.js, React e Chackra UI no design system. O design foi feito pela agência e eu atuei recebendo o layout e devolvendo a aplicação em React/Nex.js desde a fidelização ao layout até a camada de integraçãocom a API do backend. Nesse site foram aplicados recursos de SSR, Context API e integração com backend usando GraphQL.',
-            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-          },
-          category: 'React',
-          tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Materialize', 'GraphQL', 'React', 'NextJs', 'MongoDB'],
-          screenshots: {
-            img1: {
-              url: 'https://via.placeholder.com/355x200',
-              caption: {
-                en: 'caption 5',
-                ar: 'تسمية توضيحية 5'
-              }
-            },
-            img2: {
-              url: 'https://via.placeholder.com/330x460',
-              caption: {
-                en: 'caption 4',
-                ar: 'تسمية توضيحية 4'
-              }
-            },
-            img3: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 3',
-                ar: 'تسمية توضيحية 3'
-              }
-            },
-            img4: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 2',
-                ar: 'تسمية توضيحية 2'
-              }
-            },
-            img5: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 1',
-                ar: 'تسمية توضيحية 1'
-              }
-            }
-          }
-        }, {
-          id: 13,
-          url: 'single-portfolio.html?id=13',
-          imgUrl: '/assets/images/portfolio/uva-capa.png',
-          goToProject: 'https://uva.br/',
-          title: {
-            en: 'Portal UVA',
-            ar: 'هنا عنوان المشروع 1'
-          },
-          date: {
-            en: 'Novembro 2021',
-            ar: 'أبريل 2021'
-          },
-          desc: {
-            en: 'Portal desenvolvido como freelancer para a agência People Interactive. Esse site foi desenvolvido em Wordpress com o design feito pela agência e eu atuei recebendo o layout e devolvendo o site em wordpress totalmente funcional e customizável para o cliente. Nesse site foram aplicados plugins de Custom Fields, Twitter e foram feitos plugins customizados para o cliente.',
-            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-          },
-          category: 'Wordpress',
-          tools: ['HTML', 'Wordpress', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'PHP'],
-          screenshots: {
-            img1: {
-              url: 'https://via.placeholder.com/355x200',
-              caption: {
-                en: 'caption 5',
-                ar: 'تسمية توضيحية 5'
-              }
-            },
-            img2: {
-              url: 'https://via.placeholder.com/330x460',
-              caption: {
-                en: 'caption 4',
-                ar: 'تسمية توضيحية 4'
-              }
-            },
-            img3: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 3',
-                ar: 'تسمية توضيحية 3'
-              }
-            },
-            img4: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 2',
-                ar: 'تسمية توضيحية 2'
-              }
-            },
-            img5: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 1',
-                ar: 'تسمية توضيحية 1'
-              }
-            }
-          }
-        }, {
-          id: 14,
-          url: 'single-portfolio.html?id=14',
-          imgUrl: '/assets/images/portfolio/bradesco-capa.png',
-          goToProject: 'https://www.bradescoseguros.com.br/clientes/servicos/atendimento-central-de-sinistros/auto',
-          title: {
-            en: 'Bradesco Seguros Auto/RE',
-            ar: 'هنا عنوان المشروع 14'
-          },
-          date: {
-            en: 'Fevereiro 2020',
-            ar: 'أبريل 2021'
-          },
-          desc: {
-            en: 'Sistema de abertura de sinistros para o terceiro (não cliente) em caso de acionamento para automoveis e residencial. O de automóveis foi feito em React com Redux e SASS, foram utilizadas também a API do Google Maps para fins de Geolocalização. O residencial foi feito em Vue com Vuex e SASS.',
-            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-          },
-          category: ['React', 'Vue'],
-          tools: ['HTML', 'Slim', 'CSS', 'Sass', 'JavaScript', 'React', 'Redux', 'Vuex', 'Vue'],
-          screenshots: {
-            img1: {
-              url: 'https://via.placeholder.com/355x200',
-              caption: {
-                en: 'caption 5',
-                ar: 'تسمية توضيحية 5'
-              }
-            },
-            img2: {
-              url: 'https://via.placeholder.com/330x460',
-              caption: {
-                en: 'caption 4',
-                ar: 'تسمية توضيحية 4'
-              }
-            },
-            img3: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 3',
-                ar: 'تسمية توضيحية 3'
-              }
-            },
-            img4: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 2',
-                ar: 'تسمية توضيحية 2'
-              }
-            },
-            img5: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 1',
-                ar: 'تسمية توضيحية 1'
-              }
-            }
-          }
-        },{
-          id: 18,
-          url: 'single-portfolio.html?id=18',
-          imgUrl: '/assets/images/portfolio/analu-capa.png',
-          goToProject: 'http://analuhome.com.br/',
-          title: {
-            en: 'Analu Imóveis e Homestaging',
-            ar: 'هنا عنوان المشروع 18'
-          },
-          date: {
-            en: 'Outubro 2022',
-            ar: 'أبريل 2022'
-          },
-          desc: {
-            en: 'Website e sistema de gestão e avaliação de mercado de imóveis para a consultora de imóveis e stager Ana Lucia. Foi feito um site usando a plataforma wordpresse e uma plataforma de avaliação de imóveis feira em React com GraphQL e Amplify dentro de um ambiente AWS totalmente escalável.',
-            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-          },
-          category: 'Wordpress',
-          tools: ['HTML', 'CSS', 'Sass', 'JavaScript', 'Wordpress', 'React', 'Php', 'Amplify'],
-          screenshots: {
-            img1: {
-              url: 'https://via.placeholder.com/355x200',
-              caption: {
-                en: 'caption 5',
-                ar: 'تسمية توضيحية 5'
-              }
-            },
-            img2: {
-              url: 'https://via.placeholder.com/330x460',
-              caption: {
-                en: 'caption 4',
-                ar: 'تسمية توضيحية 4'
-              }
-            },
-            img3: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 3',
-                ar: 'تسمية توضيحية 3'
-              }
-            },
-            img4: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 2',
-                ar: 'تسمية توضيحية 2'
-              }
-            },
-            img5: {
-              url: 'https://via.placeholder.com/300x225',
-              caption: {
-                en: 'caption 1',
-                ar: 'تسمية توضيحية 1'
-              }
-            }
-          }
-        }, {
-          id: 15,
-          url: 'single-portfolio.html?id=15',
           imgUrl: '/assets/images/portfolio/chatguru-capa.png',
           title: {
-            en: 'ChatGuru Área Administrativa',
-            ar: 'هنا عنوان المشروع 15'
+            en: 'ChatGuru Área Administrativa'
           },
           date: {
-            en: 'April 2021',
-            ar: 'أبريل 2021'
+            en: 'Abril 2021'
           },
           desc: {
-            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
           },
-          category: 'Vue',
+          category: 'Sistemas',
           tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Materialize', 'AJAX', 'Angular', 'Firebase'],
           screenshots: {
             img1: {
               url: 'https://via.placeholder.com/355x200',
               caption: {
-                en: 'caption 5',
-                ar: 'تسمية توضيحية 5'
+                en: 'caption 5'
               }
             },
             img2: {
               url: 'https://via.placeholder.com/330x460',
               caption: {
-                en: 'caption 4',
-                ar: 'تسمية توضيحية 4'
+                en: 'caption 4'
               }
             },
             img3: {
               url: 'https://via.placeholder.com/300x225',
               caption: {
-                en: 'caption 3',
-                ar: 'تسمية توضيحية 3'
+                en: 'caption 3'
               }
             },
             img4: {
               url: 'https://via.placeholder.com/300x225',
               caption: {
-                en: 'caption 2',
-                ar: 'تسمية توضيحية 2'
+                en: 'caption 2'
               }
             },
             img5: {
               url: 'https://via.placeholder.com/300x225',
               caption: {
-                en: 'caption 1',
-                ar: 'تسمية توضيحية 1'
+                en: 'caption 1'
               }
             }
           }
-        }, {
-          id: 16,
-          url: 'single-portfolio.html?id=16',
-          imgUrl: '/assets/images/portfolio/academic-capa.png',
+        },
+        {
+          id: 1,
+          url: 'single-portfolio.html?id=1',
+          imgUrl: '/assets/images/portfolio/energisa-capa.png',
+          goToProject: 'https://servicos.energisa.com.br/segunda-via',
           title: {
-            en: 'Academic Branding',
-            ar: 'هنا عنوان المشروع 16'
+            en: 'Energisa Área do Cliente'
           },
           date: {
-            en: 'Abril 2022',
-            ar: 'أبريل 2021'
+            en: 'Dezembro 2021'
           },
           desc: {
-            en: 'Desenvolvimento do site profissional da Gabriela Daly, com o objetivo de divulgar seus trabalhos acadêmicos e profissionais. O site foi desenvolvido em Wordpress com a criação de um tema do zero, foram utilizados plugins de twitter, custom fields e mailchimp para a administração de newsletters. Foi também adicionado o Elementor para que o cliente possa editar o site com facilidade.',
-            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+            en: 'Portal desenvolvido como freelancer para a agência People Interactive. esse portal foi desenvolvido em Next.js, React e Chackra UI no design system. O design foi feito pela agência e eu atuei recebendo o layout e devolvendo a aplicação em React/Nex.js desde a fidelização ao layout até a camada de integraçãocom a API do backend. Nesse site foram aplicados recursos de SSR, Context API e integração com backend usando GraphQL.'
           },
-          category: 'Wordpress',
+          category: 'Apps',
+          tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Materialize', 'GraphQL', 'React', 'NextJs', 'MongoDB'],
+          screenshots: {
+            img1: {
+              url: 'https://via.placeholder.com/355x200',
+              caption: {
+                en: 'caption 5'
+              }
+            },
+            img2: {
+              url: 'https://via.placeholder.com/330x460',
+              caption: {
+                en: 'caption 4'
+              }
+            },
+            img3: {
+              url: 'https://via.placeholder.com/300x225',
+              caption: {
+                en: 'caption 3'
+              }
+            },
+            img4: {
+              url: 'https://via.placeholder.com/300x225',
+              caption: {
+                en: 'caption 2'
+              }
+            },
+            img5: {
+              url: 'https://via.placeholder.com/300x225',
+              caption: {
+                en: 'caption 1'
+              }
+            }
+          }
+        },
+        {
+          id: 6,
+          url: 'single-portfolio.html?id=6',
+          imgUrl: '/assets/images/portfolio/academic-capa.png',
+          title: {
+            en: 'Academic Branding'
+          },
+          date: {
+            en: 'Abril 2022'
+          },
+          desc: {
+            en: 'Desenvolvimento do site profissional da Gabriela Daly, com o objetivo de divulgar seus trabalhos acadêmicos e profissionais. O site foi desenvolvido em Wordpress com a criação de um tema do zero, foram utilizados plugins de twitter, custom fields e mailchimp para a administração de newsletters. Foi também adicionado o Elementor para que o cliente possa editar o site com facilidade.'
+          },
+          category: 'Sites',
           tools: ['HTML', 'CSS', 'Sass', 'JavaScript', 'Wordpress', 'Bootstrap', 'Elementor', 'Php'],
           screenshots: {
             img1: {
               url: 'https://via.placeholder.com/355x200',
               caption: {
-                en: 'caption 5',
-                ar: 'تسمية توضيحية 5'
+                en: 'caption 5'
               }
             },
             img2: {
               url: 'https://via.placeholder.com/330x460',
               caption: {
-                en: 'caption 4',
-                ar: 'تسمية توضيحية 4'
+                en: 'caption 4'
               }
             },
             img3: {
               url: 'https://via.placeholder.com/300x225',
               caption: {
-                en: 'caption 3',
-                ar: 'تسمية توضيحية 3'
+                en: 'caption 3'
               }
             },
             img4: {
               url: 'https://via.placeholder.com/300x225',
               caption: {
-                en: 'caption 2',
-                ar: 'تسمية توضيحية 2'
+                en: 'caption 2'
               }
             },
             img5: {
               url: 'https://via.placeholder.com/300x225',
               caption: {
-                en: 'caption 1',
-                ar: 'تسمية توضيحية 1'
+                en: 'caption 1'
               }
             }
           }
-        }, {
-          id: 17,
-          url: 'single-portfolio.html?id=17',
-          imgUrl: '/assets/images/portfolio/sparkpay-capa.png',
+        },
+        {
+          id: 3,
+          url: 'single-portfolio.html?id=3',
+          imgUrl: '/assets/images/portfolio/bradesco-capa.png',
+          goToProject: 'https://www.bradescoseguros.com.br/clientes/servicos/atendimento-central-de-sinistros/comunicar-sinistro-auto',
           title: {
-            en: 'Plataforma de pagamento Herospark',
-            ar: 'هنا عنوان المشروع 17'
+            en: 'Bradesco Seguros Auto/RE'
           },
           date: {
-            en: 'April 2021',
-            ar: 'أبريل 2021'
+            en: 'Fevereiro 2020'
           },
           desc: {
-            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+            en: 'Sistema de abertura de sinistros para o terceiro (não cliente) em caso de acionamento para automoveis e residencial. O de automóveis foi feito em React com Redux e SASS, foram utilizadas também a API do Google Maps para fins de Geolocalização. O residencial foi feito em Vue com Vuex e SASS.'
           },
-          category: 'Angular',
-          tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'TailwindCSS', 'AJAX', 'Angular', 'Firebase'],
+          category: 'Sistemas',
+          tools: ['HTML', 'Slim', 'CSS', 'Sass', 'JavaScript', 'React', 'Redux', 'Vuex', 'Vue'],
           screenshots: {
             img1: {
               url: 'https://via.placeholder.com/355x200',
               caption: {
-                en: 'caption 5',
-                ar: 'تسمية توضيحية 5'
+                en: 'caption 5'
               }
             },
             img2: {
               url: 'https://via.placeholder.com/330x460',
               caption: {
-                en: 'caption 4',
-                ar: 'تسمية توضيحية 4'
+                en: 'caption 4'
               }
             },
             img3: {
               url: 'https://via.placeholder.com/300x225',
               caption: {
-                en: 'caption 3',
-                ar: 'تسمية توضيحية 3'
+                en: 'caption 3'
               }
             },
             img4: {
               url: 'https://via.placeholder.com/300x225',
               caption: {
-                en: 'caption 2',
-                ar: 'تسمية توضيحية 2'
+                en: 'caption 2'
               }
             },
             img5: {
               url: 'https://via.placeholder.com/300x225',
               caption: {
-                en: 'caption 1',
-                ar: 'تسمية توضيحية 1'
+                en: 'caption 1'
               }
             }
           }
-        }].reverse(),
+        },
+        {
+          id: 8,
+          url: 'single-portfolio.html?id=8',
+          imgUrl: '/assets/images/portfolio/allintra-capa.png',
+          title: {
+            en: 'Allintra — Dashboard do Desenvolvedor'
+          },
+          date: {
+            en: 'Fevereiro - 2026'
+          },
+          desc: {
+            en: 'Desenvolvimento do Dashboard do Desenvolvedor da Allintra, uma plataforma integrada aos serviços de infraestrutura em nuvem e às camadas de deploy de código. A solução centraliza o gerenciamento das entregas de software em produção, conectando o trabalho dos desenvolvedores aos processos de publicação das aplicações. O projeto reuniu React, React Native, AWS e Docusaurus.'
+          },
+          category: 'Apps',
+          tools: ['React', 'React Native', 'AWS', 'Docusaurus'],
+          screenshots: {
+            img1: {
+              url: '/assets/images/portfolio/allintra-capa.png',
+              caption: {
+                en: 'Allintra — Plataforma de gerenciamento de entregas em produção'
+              }
+            }
+          }
+        },
+        {
+          id: 2,
+          url: 'single-portfolio.html?id=2',
+          imgUrl: '/assets/images/portfolio/uva-capa.png',
+          goToProject: 'https://uva.br/',
+          title: {
+            en: 'Portal UVA'
+          },
+          date: {
+            en: 'Novembro 2021'
+          },
+          desc: {
+            en: 'Portal desenvolvido como freelancer para a agência People Interactive. Esse site foi desenvolvido em Wordpress com o design feito pela agência e eu atuei recebendo o layout e devolvendo o site em wordpress totalmente funcional e customizável para o cliente. Nesse site foram aplicados plugins de Custom Fields, Twitter e foram feitos plugins customizados para o cliente.'
+          },
+          category: 'Sites',
+          tools: ['HTML', 'Wordpress', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'PHP'],
+          screenshots: {
+            img1: {
+              url: 'https://via.placeholder.com/355x200',
+              caption: {
+                en: 'caption 5'
+              }
+            },
+            img2: {
+              url: 'https://via.placeholder.com/330x460',
+              caption: {
+                en: 'caption 4'
+              }
+            },
+            img3: {
+              url: 'https://via.placeholder.com/300x225',
+              caption: {
+                en: 'caption 3'
+              }
+            },
+            img4: {
+              url: 'https://via.placeholder.com/300x225',
+              caption: {
+                en: 'caption 2'
+              }
+            },
+            img5: {
+              url: 'https://via.placeholder.com/300x225',
+              caption: {
+                en: 'caption 1'
+              }
+            }
+          }
+        },
+        {
+          id: 9,
+          url: 'single-portfolio.html?id=9',
+          imgUrl: '/assets/images/portfolio/origemx-capa.png',
+          title: {
+            en: 'OrigemX - Gestão de Linhagem Canina'
+          },
+          date: {
+            en: 'Agosto - 2026'
+          },
+          desc: {
+            en: 'OrigemX é uma plataforma completa de gestão de linhagem canina, desenvolvida para atender criadores de cães de raça. O sistema permite o gerenciamento de cães, exposições, resultados, acasalamentos, filhotes, pedigrees, entre outras funcionalidades.'
+          },
+          category: 'Sistemas',
+          tools: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Docker', 'AWS'],
+          screenshots: {
+            img1: {
+              url: '/assets/images/portfolio/origemx-capa.png',
+              caption: {
+                en: 'OrigemX - Gestão de Linhagem Canina'
+              }
+            }
+          }
+
+        },
+        {
+          id: 10,
+          url: 'single-portfolio.html?id=10',
+          imgUrl: '/assets/images/portfolio/gp-capa.png',
+          title: {
+            en: 'Gestão de Promotores - Grupo Petrópolis'
+          },
+          date: {
+            en: 'Junho - 2026'
+          },
+          desc: {
+            en: 'Atuando por intermédio da empresa Buildbox, desenvolvi um sistema para gerenciamento de promotores do Grupo Petrópolis. O sistema permite o gerenciamento de promotores, comunicação, contratos, atividades, materiais, entre outras funcionalidades.'
+          },
+          category: 'Sistemas',
+          tools: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Docker', 'AWS'],
+          screenshots: {
+            img1: {
+              url: '/assets/images/portfolio/gp-capa.png',
+              caption: {
+                en: 'Gestão de Promotores - Grupo Petrópolis'
+              }
+            }
+          }
+
+        }
+        ].reverse(),
         // viewed portfolio items
         portfolioItems: [],
         // list of testimonials items to loop through it
@@ -2138,13 +1539,11 @@
 
             if (e.code === 'Tab') {
               if (e.shiftKey)
-              /* shift + tab */
-              {
+              /* shift + tab */ {
                 // if this is the first item, move to the last item
                 isFirstTabStop && lastTabStop.focus();
               } else
-              /* tab */
-              {
+              /* tab */ {
                 // if this is the last item, go back to the first item
                 isLastTabStop && firstTabStop.focus();
               } // close nav menu on Escape button press
@@ -2244,7 +1643,7 @@
               return item.tools.includes(tool);
             }
           } else {
-            return this.currentFilter === 'All' || item.category === this.currentFilter;
+            return this.currentFilter === 'Todos' || this.currentFilter === 'All' || (Array.isArray(item.category) ? item.category.includes(this.currentFilter) : item.category === this.currentFilter);
           }
         }).slice(this.filteredPortfolioItems.length, this.portfolioItemsPage * this.itemsPerPage); // check if have works or not
 
@@ -2555,7 +1954,7 @@
         if (tax) {
           return this.portfolioItems;
         } else {
-          return this.portfolioItems.filter(item => this.currentFilter === 'All' || item.category === this.currentFilter);
+          return this.portfolioItems.filter(item => this.currentFilter === 'Todos' || this.currentFilter === 'All' || (Array.isArray(item.category) ? item.category.includes(this.currentFilter) : item.category === this.currentFilter));
         }
       },
 
